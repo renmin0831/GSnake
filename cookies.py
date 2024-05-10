@@ -17,7 +17,7 @@ class Cookies(Sprite):
         self.setting = settings
 
         #加载食物图片并获取其rect属性
-        self.image = pygame.image.load('D:\PythonProject\GSnake\images\cookie.jpg')
+        self.image = pygame.image.load('./GSnake/images/cookie.jpg')
         self.rect = self.image.get_rect()
         self.screen_rect = self.screen.get_rect()
 
