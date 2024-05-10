@@ -22,7 +22,7 @@ class Snakes:
 
 
         # 加载蛇头图像并获取其rect属性
-        self.image = pygame.image.load('D:\PythonProject\GSnake\images\snake.jpg')
+        self.image = pygame.image.load('./GSnake/images/snake.jpg')
         self.rect = self.image.get_rect()
         self.screen_rect = self.screen.get_rect()
 
